@@ -45,6 +45,6 @@ Please cite any of the following three papers depending on the use of our code:
 Felix Rafael Segundo Sevilla, Venkata Satya Narasimham Arava ([Narasimhamarava](https://github.com/Narasimhamarava)), Luigi Vanfretti ([lvanfretti](https://github.com/lvanfretti))
 
 # License
-This Modelica package is free software and the use is completely at your own risk; it can be redistributed and/or modified under the terms of the GNU Public License version 3.
+Thi is free/libre software and the use is completely at your own risk; it can be redistributed and/or modified under the terms of the GNU Public License version 3.
 
 Copyright (C) 2017,  Luigi Vanfretti, Felix Rafael Segundo Sevilla, Venkata Satya Narasimhan Arava.
