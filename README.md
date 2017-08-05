@@ -1,12 +1,11 @@
 # TRISTAN: Time seRIes baSed sTability Assessment iNdexes
-Power System Time Series Based Stability Assessment Indexes
-PS_Time_Series_Stability_Indexes
 Methods to assess power system (static and dynamic) stability margins from time-series data
+
+![ScreenShot](https://github.com/ALSETLab/TRISTAN/blob/master/_pics/readmeimage.jpg)
 
 # Introduction and Motivation
 The main categories of computations performed for stability analysis purposes in power systems are contingency analysis, and security margin calculations. Contingency analysis methods consist determining system’s response to large disturbance, at a given operating point. Static and dynamic time-domain simulation methods are generally used in contingency analysis to assess the stability of a given power system. Static methods focus on the existence of equilibria and therefore rely on the solution of non-linear algebraic equations that assume equilibrium conditions of the system’s dynamics. Power flow based contingency analysis and continuation power flow (CPF) methods are some examples of static methods. Static methods are usually very efficient but they neither account for post contingency controls that depend on the system’s evolution nor capture more involved instability mechanisms. 
 
-![ScreenShot](readmeimage.jpg)
 Time-domain methods, on the other hand, may have higher computational demands, but offer higher accuracy and better information (e.g. w.r.t the system’s response to a sequence of events). Such methods are attractive for Dynamic Security Assessment tools, specially those that do not have the facility to exploit the mathematical model's structure and can only use the resulting time-series from time-domain simulations. This is the case of the iPST platform (https://github.com/itesla/ipst) that relies in time-domain simulations for security assessment, and for which the the indexes provided in this repository were first developed.
 
 ## Related work
