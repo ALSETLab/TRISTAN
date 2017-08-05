@@ -45,7 +45,6 @@ Please cite any of the following three papers depending on the use of our code:
 - Voltage Stability Indices:
   - Type A:
 >> L. Vanfretti and F. R. S. Sevilla, "A three-layer severity index for power system voltage stability assessment using time-series from dynamic simulations," IEEE PES Innovative Smart Grid Technologies, Europe, Istanbul, 2014, pp. 1-5. [URL]( http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7028788&isnumber=7028730).
-
   - Type B:
 >> V.S. Narasimham Arava and L. Vanfretti, "A Method to Estimate Power System Voltage Stability Margins using Time-series from Dynamic Simulations with Sequential Load Perturbations", paper submitted to the IEEE Transactions on Power Systems, 2017. Under Review.
 
