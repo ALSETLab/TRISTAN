@@ -35,11 +35,19 @@ Each of the indeces are in an independent directories and are implemented in a M
 
 # Cite our work!
 Please cite any of the following three papers depending on the use of our code:
->> L. Vanfretti and F. R. S. Sevilla, "A three-layer severity index for power system voltage stability assessment using time-series from dynamic simulations," IEEE PES Innovative Smart Grid Technologies, Europe, Istanbul, 2014, pp. 1-5. [URL]( http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7028788&isnumber=7028730).
 
+- Static and transient stability indeces:
+>> F. R. S. Sevilla and L. Vanfretti, "Static stability indexes for classification of power system time-domain simulations," 2015 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), Washington, DC, 2015, pp. 1-5. [URL:]( http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7131846&isnumber=7131775)
+
+- Small signal stability indices:
 >> F. R. S. Sevilla and L. Vanfretti, "A small-signal stability index for power system dynamic impact assessment using time-domain simulations," 2014 IEEE PES General Meeting | Conference & Exposition, National Harbor, MD, 2014, pp. 1-5. [URL]( http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6938842&isnumber=6938773)
 
->> F. R. S. Sevilla and L. Vanfretti, "Static stability indexes for classification of power system time-domain simulations," 2015 IEEE Power & Energy Society Innovative Smart Grid Technologies Conference (ISGT), Washington, DC, 2015, pp. 1-5. [URL:]( http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7131846&isnumber=7131775)
+- Voltage Stability Indices:
+  - Type A:
+>> L. Vanfretti and F. R. S. Sevilla, "A three-layer severity index for power system voltage stability assessment using time-series from dynamic simulations," IEEE PES Innovative Smart Grid Technologies, Europe, Istanbul, 2014, pp. 1-5. [URL]( http://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=7028788&isnumber=7028730).
+
+  - Type B:
+>> V.S. Narasimham Arava and L. Vanfretti, "A Method to Estimate Power System Voltage Stability Margins using Time-series from Dynamic Simulations with Sequential Load Perturbations", paper submitted to the IEEE Transactions on Power Systems, 2017. Under Review.
 
 # Developers
 Felix Rafael Segundo Sevilla, Venkata Satya Narasimham Arava ([Narasimhamarava](https://github.com/Narasimhamarava)), Luigi Vanfretti ([lvanfretti](https://github.com/lvanfretti))
