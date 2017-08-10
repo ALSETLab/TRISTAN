@@ -18,12 +18,13 @@ Because the indexes are integrated into the platform's workflow, it is difficult
 The repository is organized as follows:
   - ``./_docs/`` includes all the documentation available. The deliverables for the iTesla project for this work, papers written (for which results can be reproduced), presentations, and a synthesis of some of the indexes are provided in sub-folders.
   - ``./_pics/`` provides images with graphical results of the use of the indexes - for illustration purposes.
-  - ``./_sour/`` includes all development versions, and final set of indexes. Development versions are in folders market `v0_X...`, and the final version is in a folder named `v1`.
+  - ``./_source/`` includes all development versions, and final set of indexes. Development versions are in folders market `v0_X...`, and the final version is in a folder named `v1`.
   - ``./_thirdparty`` includes the original code for a [Prony function developed by PNNL](https://github.com/ftuffner/DSIToolbox/blob/master/Ringdown130930/private/prgv2_5.m) which has been extensively modified to fit the purposes of the application. Please refer to this [link](https://github.com/ftuffner/DSIToolbox/) to obtain an updated or newer version of that code.
 
 ## Running the different indexes
-Each of the indeces are in an independent directories and are implemented in a Matlab function, that in some cases has dependencies to other functions. All functions are tested from individual Matlab scripts that call data and format the required inputs for excecution. All the indexes are located under ``./_sources/``:
+Each of the indeces are in an independent directories and are implemented in a Matlab function, that in some cases has dependencies to other functions. All functions are tested from individual Matlab scripts that call data and format the required inputs for excecution. All the indexes are located under ``./_sources/v1/``:
   - Static overload index: Run ``static_overload_index_testing.m`` on any of the three data sets ``Over_load-X.mat``.
+    - Note: A Python implementation of this index is also available. 
   - Static overvoltage index: Run ``static_voltage_index_testing.m`` on the data set ``OverUnder_Voltage.mat``.
   - Dynamic Transient index: Run ``dynamic_transcient_index_testing.m`` on the data sets ``transient.mat`` and ``Gentrip_X.mat``.
   - Small signal indexes:
@@ -49,9 +50,11 @@ Please cite any of the following three papers depending on the use of our code:
 >> V.S. Narasimham Arava and L. Vanfretti, "A Method to Estimate Power System Voltage Stability Margins using Time-series from Dynamic Simulations with Sequential Load Perturbations", paper submitted to the IEEE Transactions on Power Systems, 2017. Under Review.
 
 # Developers
-Felix Rafael Segundo Sevilla, Venkata Satya Narasimham Arava ([Narasimhamarava](https://github.com/Narasimhamarava)), Luigi Vanfretti ([lvanfretti](https://github.com/lvanfretti))
+Felix Rafael Segundo Sevilla, Venkata Satya Narasimham Arava ([Narasimhamarava](https://github.com/Narasimhamarava)), Luigi Vanfretti ([lvanfretti](https://github.com/lvanfretti)).
+
+Wenting Li (liwenting0601@gmail.com) translated the static overload index to Python in Aug. 2017.
 
 # License
 Thi is free/libre software and the use is completely at your own risk; it can be redistributed and/or modified under the terms of the GNU Public License version 3.
 
-Copyright (C) 2017,  Luigi Vanfretti, Felix Rafael Segundo Sevilla, Venkata Satya Narasimhan Arava.
+Copyright (C) 2017,  Luigi Vanfretti.
